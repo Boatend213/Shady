@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  width: 100%;
+}
+
+nav{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero img{
+    height: 800px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgba(238, 85, 41, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+nav ul li a{
+    padding-right: 300px;
+    
+}
+
+nav a:hover{
+    color: white;
+  }
+
+
+nav{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero img{
+    height: 800px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgba(238, 85, 41, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+nav ul li a{
+    padding-right: 300px;
+    
+}
+
+nav a:hover{
+    color: white;
+  }
+
+
+  .register-text h1{
+    font-size: 120px;
+    text-align: center;
+    color: rgba(238, 85, 41, 1);
+    margin-top: 300px;
+  }
+
+  .register-text h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px
+  }
+
+
+  .control{
+    margin-left: 700px;
+    margin-top: 400px;
+   
+  }
+
+
+  .form-teamname label{
+    font-size: 50px;
+  }
+
+  .form-teamname input{
+    width: 1600px;
+    height: 140px;
+    font-size: 50px;
+  }
+
+  .form-teamname input:hover{
+    border: none;
+    border:4px solid red;
+  }
+
+  .form-age label{
+    font-size: 50px;
+  }
+
+  /* <!-- -----AGE------- --> */
+
+  .form-age{
+   float: right;
+   margin-right: 400px;
+   margin-top: -200px;
+   
+    
+    
+  }
+
+  #Select-Age-Group{
+    width: 1600px;
+    height: 140px;
+  }
+
+  #Select-Age-Group:hover{
+    border: none;
+    border:4px solid red;
+  }
+
+
+  #Select-Age-Group option{
+    font-size: 50px;
+  }
+
+ .box{
+    font-size: 200px;
+  }
+
+
+  /* <!-- ------- provinacial body------ --> */
+
+  .provinacial-body{
+    margin-top: 100px;
+  }
+
+.provinacial-body input{
+  width: 2900px;
+  height: 300px;
+  font-size: 30px;
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.provinacial-body label{
+  font-size: 50px;
+}
+
+.provinacial-body input:hover{
+  border: none;
+    border:4px solid red;
+}
+
+
+/* <!-- ------match link---- --> */
+
+.match-link{
+  margin-top: 100px;
+}
+
+.match-link label{
+  font-size: 50px;
+}
+
+.match-link input{
+  width: 2980px;
+  height: 140px;
+  font-size: 40px;
+
+}
+
+.match-link input:hover{
+  border: none;
+    border:4px solid red;
+}
+
+
+/* <!-- --------Team Contact------ --> */
+
+.details h1{
+  font-size: 90px;
+  margin-top: 90px;
+}
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact label{
+  font-size: 50px;
+}
+
+.contact input{
+  width: 1600px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+
+}
+.contact input:hover{
+  border: 3px solid red;
+}
+
+.contact-last{
+  float: right;
+   margin-right: 400px;
+   margin-top: -200px;
+
+}
+
+
+.contact-last label{
+  font-size: 50px;
+}
+
+.contact-last input{
+  width: 1600px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+
+}
+.contact-last input:hover{
+  border: 3px solid red;
+}
+
+label{
+  font-size: 50px;
+}
+
+.contact-last input{
+  width: 1600px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+
+}
+.contact-last input:hover{
+  border: 3px solid red;
+}
+
+
+/* <!-- ------ phone------ --> */
+
+.phone-add{
+  margin-top: 100px;
+}
+
+.phone-add label{
+  font-size: 50px;
+}
+
+.phone-add input{
+  width: 1600px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+
+}
+.phone-add input:hover{
+  border: 3px solid red;
+}
+
+
+/* address */
+
+.address{
+  float: right;
+   margin-right: 400px;
+   margin-top: -200px;
+
+}
+
+
+.address label{
+  font-size: 50px;
+}
+
+.address input{
+  width: 1600px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 50px;
+  
+
+}
+.address input:hover{
+  border: 3px solid red;
+}
+
+
+/* <!-- ------PROMO----- --> */
+
+.apply{
+  margin-top: 100px;
+}
+
+.apply label{
+  font-size: 50px;
+}
+
+.apply input{
+  width: 2478px;
+  height: 140px;
+  font-size: 40px;
+
+}
+
+.apply input:hover{
+  border: none;
+    border:4px solid red;
+}
+
+.apply-but button{
+  height: 140px;
+  width: 500px;
+  font-size: 50px;
+  position: relative;
+  left: 2483px;
+  top: -143px;
+  border-style: none;
+}
+
+.apply-but button:hover{
+  color: rgba(238, 85, 41, 1);
+  transition: 0.20s;
+
+}
+
+/* <!-- ------table------ --> */
+
+.table-fee h3{
+  font-size: 60px;
+}
+
+table{
+  margin-top: 100px;
+  width: 2500px;
+  height: 300px;
+}
+
+table th,td{
+  border: 1px solid black;
+}
+
+table th{
+  font-size: 50px;
+  
+}
+
+table td{
+  font-size: 50px;
+  padding-left: 100px;
+
+}
+
+#total-ftf{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+
+
+
+.Credit{
+  margin-top: 100px;
+}
+
+.Credit label{
+  font-size: 50px;
+}
+
+.Credit input{
+  width: 2478px;
+  height: 140px;
+  font-size: 40px;
+  padding-left: 40px;
+
+}
+
+.Credit input:hover{
+  border: none;
+    border:4px solid red;
+}
+
+.Proceed{
+  margin-top: 100px;
+}
+
+.Proceed button{
+  width: 700px;
+  height: 120px;
+  font-size: 60px;
+  background-color:  rgba(238, 85, 41, 1);
+  color: white;
+  border: none;
+}
+
+
+.stay2{
+  background-color: rgba(238, 85, 41, 1);
+    height: 1000px;
+    color: white;
+    margin-top: 200px;
+}
+
+.stay2 h1{
+  padding-left: 400px;
+    padding-top: 300px;
+    font-style: italic;
+    /* margin-top: 00px; */
+    font-size: 120px;
+}
+
+.stay2 h3{
+  font-size: 50px;
+  padding-left: 400px;
+}
+
+#form{
+  height: 120px;
+  width: 800px;
+  font-size: 40px;
+  position: relative;
+  left: 3000px;
+  bottom: 250px;
+  padding-left: 40px;
+  border: none;
+  margin: 20px;
+  outline: none;
+}
+
+#sub-but{
+  height: 120px;
+  width: 800px;
+  font-size: 60px;
+  position: relative;
+  color: rgba(238, 85, 41, 1);
+  font-weight: bold;
+  left: 1700px;
+  border: none;
+  padding-top: 20px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

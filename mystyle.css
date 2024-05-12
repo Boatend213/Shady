@@ -1,413 +1,436 @@
-
 body{
-  width: 100%;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
+    width: 100%;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .hero nav{
+      background-color: rgba(238, 85, 41, 1);
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  .hero img{
+      height: 800px;
+      width: 1000px;
+      padding-left: 200px;
+      padding-bottom: 50px;
+  }
+  
+  .hero nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+  }
+  
+  .hero nav ul li a{
+      color:white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 60px;
+  }
+  
+  .hero nav ul li a{
+      padding-right: 300px;
+      
+  }
+  
+  .hero nav a:hover{
+      color: white;
+    }
+  
+  body{
+    width: 100%;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav{
+      background-color: black;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  .hero img{
+      height: 800px;
+      width: 1000px;
+      padding-left: 200px;
+      padding-bottom: 50px;
+  }
+  
+  nav ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+  }
+  
+  nav ul li a{
+      color: rgba(238, 85, 41, 1);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 60px;
+  }
+  
+  nav ul li a{
+      padding-right: 300px;
+      
+  }
+  
+  nav a:hover{
+      color: white;
+    }
 
-nav{
-    background-color: black;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-.hero img{
-    height: 800px;
-    width: 1000px;
-    padding-left: 200px;
-    padding-bottom: 50px;
-}
+    .events1 h1{
+        font-size: 150px;
+        text-align: center;
+        margin-top: 200px;
+        color: rgba(238, 85, 41, 1);
+      }
+      
+      .events1 h3{
+        font-size: 70px;
+        text-align: center;
+        margin-top: 200px;
+        color: rgba(238, 85, 41, 1);
+      }
+      
+      
+      /* -------events2------- */
+      
+      .events2{
+        background-color:  rgba(238, 85, 41, 1);
+        width: 83%;
+        height:1500px;
+        margin-left: 240px;
+        margin-top: 200px;
+       
+      }
+      
+      .events2-image{
+        display: flex;
+        flex-direction: row;
+        gap: 2000px;
+       
+      
+      }
+      
+      .events2 h1,h2,p{
+        text-align: center;
+        position: relative;
+        bottom: 1400px;
+        left: 250px;
+      
+      
+      }
+      
+      .events2-image{
+        height: 1500px;
+        width: 300px;
+      
+      }
+      .events2 h1{
+        font-size: 130px;
+        font-weight: bold;
+        color: white;
+        
+      }
+      
+      .events2 h2{
+        font-size: 70px;
+        color: white;
+      }
+      .events2 p{
+        font-size: 50px;
+        padding-top: 100px;
+        color: white;
+      }
 
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-}
+      #events-but1{
+        font-size: 50px;
+        position: relative;
+        bottom: 1300px;
+        left: 1700px;
+        width: 370px;
+        height: 150px;
+        border-radius: 30px;
+        border: none;
+        color: rgba(238, 85, 41, 1);
+        font-weight: bold;
+        
+      }
+      
+      #events-but2{
+        font-size: 50px;
+        position: relative;
+        bottom: 1300px;
+        left: 1950px;
+        width: 370px;
+        height: 150px;
+        border-radius: 30px;
+        border: none;
+        color: rgba(238, 85, 41, 1);
+        font-weight: bold;
+      }
 
-nav ul li a{
-    color: rgba(238, 85, 41, 1);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 60px;
-}
 
-nav ul li a{
-    padding-right: 300px;
+      /* ------events3-------- */
+
+      .events3{
+        background-color:  rgba(238, 85, 41, 1);
+        width: 83%;
+        height:1500px;
+        margin-left: 240px;
+        margin-top: 50px;
+       
+      }
+      
+      .events3-image{
+        display: flex;
+        flex-direction: row;
+        gap: 2000px;
+       
+      
+      }
+      
+      .events3 h1,h2,p{
+        text-align: center;
+        position: relative;
+        bottom: 1400px;
+        left: 250px;
+      
+      
+      }
+      
+      .events3-image{
+        height: 1500px;
+        width: 300px;
+      
+      }
+      .events3 h1{
+        font-size: 150px;
+        font-weight: bold;
+        color: white;
+      }
+      
+      .events3 h2{
+        font-size: 90px;
+        color: white;
+        padding-top: 50px;
+      }
+      .events3 p{
+        font-size: 100px;
+        padding-top: 50px;
+        color: white;
+      }
+
+      #events-but3{
+        font-size: 50px;
+        position: relative;
+        bottom: 1100px;
+        left: 1700px;
+        width: 370px;
+        height: 150px;
+        border-radius: 30px;
+        border: none;
+        color: rgba(238, 85, 41, 1);
+        font-weight: bold;
+        
+      }
+      
+      #events-but4{
+        font-size: 50px;
+        position: relative;
+        bottom: 1100px;
+        left: 1950px;
+        width: 370px;
+        height: 150px;
+        border-radius: 30px;
+        border: none;
+        color: rgba(238, 85, 41, 1);
+        font-weight: bold;
+      }
+
+      .events3 span{
+        font-size: 60px;
+      }
+
+      /* --------events4------- */
+      .events4 h1{
+        font-size: 100px;
+        text-align: center;
+        margin-top: 100px;
+        color: rgba(238, 85, 41, 1);
+      }
+
+      /* ------events5---------- */
+      .events5{
+        background-color:  rgba(238, 85, 41, 1);
+        width: 85%;
+        height:1300px;
+        margin-left: 240px;
+        margin-top: 50px;
+       
+      }
+
+      .events5-image{
+        display: flex;
+        flex-direction: row;
+        gap: 2330px;
+      }
+
+       
+      .events5 h1,h2,p{
+        text-align: center;
+        position: relative;
+        left: 250px;
+      
+      
+      }
+      
+      .events5-image{
+        height: 1300px;
+        width: 500px;
+      
+      }
+
+       
+    .events5 h1{
+      font-size: 130px;
+      font-weight: bold;
+      color:  rgba(238, 85, 41, 1);
+    }
     
-}
+    .events5 h2{
+      font-size: 60px;
+      color: white;
+      padding-top: 50px;
+    }
+    .events5 p{
+      font-size: 80px;
+      padding-top: 100px;
+      color: white;
+    }
 
-nav a:hover{
-    color: white;
-  }
+    #events-but5{
+      font-size: 50px;
+      position: relative;
+      bottom: 1100px;
+      left: 1700px;
+      width: 370px;
+      height: 150px;
+      border-radius: 30px;
+      border: none;
+      color: rgba(238, 85, 41, 1);
+      font-weight: bold;
+      
+    }
 
-
-  /* --------page1-------- */
-
-  .page1{
-    background-color: rgb(237, 237, 237);
-    height: 2200px;
-  }
-
-  .page1 h1{
-    font-size: 230px;
-    padding-top: 600px;
-    padding-left: 400px;
-  }
-
-  .page1 span{
-    color: rgba(238, 85, 41, 1);
-  }
-  
-  .page1 h3{
-    padding-left: 400px;
-    padding-top: 70px;
-    font-size: 110px;
-    font-style: italic;
-  }
-
-  .page1 img{
-    height: 1600px;
-    position: relative;
-    right: -2900px;
-    top: -1200px;
-    flex-wrap: wrap;
-
-  }
-
-  /* --------page2-------- */
-
-  .page2 h1{
-    font-size: 250px;
-    text-align: center;
-    margin-top: 100px;
-
-  }
-
-  /* --------page3------ */
-
-  
-
-  .page3{
-    display: flex;
-    background-color:rgba(238, 85, 41, 1);
-    width: 85%;
-    justify-content: space-between;
-    margin-top: 300px;
-    margin-left: 350px;
+    #events-but5:hover{
+      box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.45);
+      transition: 0.15s;
+      
+    }
     
-  }
+    #events-but6{
+      font-size: 50px;
+      position: relative;
+      bottom: 1100px;
+      left: 1950px;
+      width: 370px;
+      height: 150px;
+      border-radius: 30px;
+      border: none;
+      color: rgba(238, 85, 41, 1);
+      font-weight: bold;
+      
+    }
 
-  .page3 h3{
-    font-size: 120px;
-    color: white;
-    padding-left: 700px;
-    padding-top: 150px;
-    text-align: center;
-  }
+    #events-but6:hover{
+      box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.45);
+      transition: 0.15s;
+      
+    }
 
-  .page3 p{
-    font-size: 70px;
-    text-align: center;
-    position: relative;
-    top: 650px;
-    right: 600px;
-    color: white;
-  }
+    .events5 span{
+      font-size: 70px;
+    }
 
-  .page3 h3,p{
-    padding-bottom: 800px;
-  }
+    .low-image{
+      width: 100%;
+      /* margin-left: 240px; */
+      /* background-color:  rgba(238, 85, 41, 1); */
+    }
 
-  .page3 button{
-    font-size: 50px;
-    font-weight: bold;
-    width: 370px;
-    height: 150px;
-    position: relative;
-     right: 2600px;
-     top: 1260px;
-     border-radius: 30px;
-     color:rgba(238, 85, 41, 1);
-     border: none;
-  }
+    .low-image svg{
+      background-color:  rgba(238, 85, 41, 1);
+    }
 
-  .page3 button:hover{
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.60);
-    transition: 0.5s;
-  }
-
-  #page-but2{
-    position: relative;
-    right: 2100px;
-    top: 1080px;
-
-  }
-  .page3 button{
-    margin-top: 30px;
-  }
-
-  /* ---------page4------- */
-
-
-  .page4{
-    background-color: rgb(237, 237, 237);
-    height: 1600px;
-    margin-top: 350px;
-    padding-top: 250px;
-  }
-
-  .page4 h1{
-    font-size: 200px;
-    padding-left: 600px;
-    padding-top: 200px;
-  
-
-  }
-  .page4 p{
-    font-size: 80px;
-    line-height: 100px;
-    width: 40%;
-    padding-left: 600px;
-    padding-top: 80px;
-  }
-
-  .page4 img{
-    height: 1500px;
-    position: relative;
-    right: -2800px;
-    top: -1900px;
-  }
-
-  #page4-but{
-    font-size: 70px;
-    height: 150px;
-    width: 600px;
-    position: relative;
-    bottom: 2100px;
-    right: 1480px;
-    background-color: rgba(238, 85, 41, 1);
-    color: white;
-    border: none;
-    transition: 2s;
-  }
-
-  #page4-but:hover{
-    background-color: rgb(255, 255, 255);
-    color:rgba(238, 85, 41, 1);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-         
-  }
-
-
-  /* ---------page5----- */
-
-  .page5{
-    margin-top: 200px;
-    height: 1300px;
-  }
-
-
-  .page5 h1{
-    font-size: 200px;
-    padding-left: 600px;
-    padding-top: 200px;
-
-  }
-  .page5 p{
-    font-size: 80px;
-    line-height: 100px;
-    width: 40%;
-    padding-left: 600px;
-    padding-top: 80px;
-  }
-
-  .page5 img{
-    height: 1500px;
-    position: relative;
-    right: -2500px;
-    top: -1900px;
-  }
-
-  #page5-but{
-    font-size: 70px;
-    height: 150px;
-    width: 600px;
-    position: relative;
-    bottom: 2100px;
-    right: 2070px;
-    background-color: rgba(238, 85, 41, 1);
-    color: white;
-    border: none;
-    transition: 2s;
-  }
-
-  #page5-but:hover{
-    background-color: rgb(255, 255, 255);
-    color:rgba(238, 85, 41, 1);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-         
-  }
-
-
-
-  /* ----------page6------- */
-
-  .page6{
-    background-color: rgb(237, 237, 237);
-    margin-top: 200px;
-    height: 1800px;
-    margin-top: 500px;
-
-  }
-
-  .page6 h1{
-    font-size: 200px;
-    padding-left: 600px;
-    padding-top: 200px;
-
-  }
-  .page6 p{
-    font-size: 80px;
-    line-height: 100px;
-    width: 40%;
-    padding-left: 600px;
-    padding-top: 80px;
-  }
-
-  .page6 img{
-    height: 1400px;
-    position: relative;
-    right: -2500px;
-    top: -1900px;
-  }
-
-  #page6-but{
-    font-size: 70px;
-    height: 150px;
-    width: 600px;
-    position: relative;
-    bottom: 2000px;
-    right: 1210px;
-    background-color: rgba(238, 85, 41, 1);
-    color: white;
-    border: none;
-    transition: 2s;
-  }
-
-  #page6-but:hover{
-    background-color: rgb(255, 255, 255);
-    color:rgba(238, 85, 41, 1);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-         
-  }
-
-  /* ---------page7------- */
-
-  .page7{
-    height: 1800px;
-    margin-top: 50px;
-
-  }
-
-  .page7 h1{
-    font-size: 200px;
-    padding-left: 600px;
-    padding-top: 200px;
-
-  }
-  .page7 p{
-    font-size: 80px;
-    line-height: 100px;
-    width: 40%;
-    padding-left: 600px;
-    padding-top: 80px;
-  }
-
-  .page7 img{
-    height: 1800px;
-    position: relative;
-    right: -2500px;
-    top: -1700px;
-  }
-
-  .page7-icon ul{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-  }
-  
-  .pagr7-icon ul li{
-    list-style: none;
-  }
-  
-  .page7-icon ul li a{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    display: block;
-    text-align: center;
-    margin: 0 30px;
-    border-radius: 50%;
-    padding: 25px;
-    box-sizing: border-box;
-    text-decoration: none;
-    box-shadow: 0 10px 15px rgba(238, 85, 41, 1);
-    transition: 5s;
-    list-style-type: none;
-  }
-  
-  
-  .page7-icon{
-    position: absolute;
-    left: 300px;
+    .stay2{
+      background-color: rgba(238, 85, 41, 1);
+        height: 1000px;
+        color: white;
+        margin-top: 100px;
+    }
     
+    .stay2 h1{
+      padding-left: 400px;
+        padding-top: 300px;
+        font-style: italic;
+        /* margin-top: 00px; */
+        font-size: 120px;
+    }
     
-  }
-  
-  .page7-icon li a{
-    top: -700px;
-    left: 300px;
-   
-  }
+    .stay2 h3{
+      font-size: 50px;
+      padding-left: 400px;
+    }
+    
+    #form{
+      height: 120px;
+      width: 800px;
+      font-size: 40px;
+      position: relative;
+      left: 3000px;
+      bottom: 250px;
+      padding-left: 40px;
+      border: none;
+      margin: 20px;
+      outline: none;
+    }
+    
+    #sub-but{
+      height: 120px;
+      width: 800px;
+      font-size: 60px;
+      position: relative;
+      color: rgba(238, 85, 41, 1);
+      font-weight: bold;
+      left: 1700px;
+      border: none;
+      padding-top: 20px;
+     
+    }
 
-  .page7-icon ul li{
-    list-style-type: none;
-  }
+    
 
+      
 
-  .page7-logos{
-    height: 1900px;
-    position: absolute;
-    left: 650px;
-    top: 12400px;
-  }
+      
 
-  .page7-logos h3{
-    font-size: 60px;
-    text-align: center;
-    padding-top: 50px;
-    background-color: rgba(238, 85, 41, 1);
-    color: white;
-    width:1000px;
-    height: 100px;
-    margin-left: 1400px;
-    margin-top: -900px;
-  }
-
-
-
-
- 
-
- 
-  
-
+     

@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero img{
+    height: 800px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgba(238, 85, 41, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+nav ul li a{
+    padding-right: 300px;
+    
+}
+
+nav a:hover{
+    color: white;
+  }
+
+body{
+  width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero img{
+    height: 800px;
+    width: 1000px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgba(238, 85, 41, 1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+nav ul li a{
+    padding-right: 300px;
+    
+}
+
+nav a:hover{
+    color: white;
+  }
+
+
+  .Learnmore-image{
+    display: flex;
+    gap: 20px;
+    background-color:rgba(238, 85, 41, 1);
+    
+    
+  }
+
+  .Learnmore-iteme{
+    margin-top: 100px;
+    width: 300px;
+    margin-left: 470px;
+    
+    
+  }
+
+
+  .Learnmore-text{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 200px;
+    color: rgba(238, 85, 41, 1);
+  }
+
+  .Learnmore-pics img{
+    height: 1200px;
+    margin: 50px;
+    position: relative;
+    left: 600px;
+    top: 300px;
+  }
+
+  .Learnmore-iteme:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.30);
+   
+    
+  }
+
+  .Learnmore-showdown{
+    margin-top: 600px;
+    margin-left: 470px;
+  }
+
+  .Learnmore-showdown h2{
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .Learnmore-showdown span{
+    font-size: 40px;
+
+  }
+
+  .Learnmore-showdown h3{
+    font-size: 65px;
+    margin-top: 50px;
+  }
+  
+
+  .stay-ftf{
+    background-color: rgba(238, 85, 41, 1);
+    height: 1000px;
+    color: white;
+    margin-top: 200px;
+  }
+
+  .stay-ftf h1{
+    padding-left: 400px;
+      padding-top: 300px;
+      font-style: italic;
+      /* margin-top: 00px; */
+      font-size: 120px;
+  }
+
+  .stay-ftf h3{
+    font-size: 50px;
+    padding-left: 400px;
+  }
+
+
+  #form{
+    height: 120px;
+    width: 800px;
+    font-size: 40px;
+    position: relative;
+    left: 3000px;
+    bottom: 250px;
+    padding-left: 40px;
+    border: none;
+    margin: 20px;
+    outline: none;
+  }
+  
+  #sub-but{
+    height: 120px;
+    width: 800px;
+    font-size: 60px;
+    position: relative;
+    color: rgba(238, 85, 41, 1);
+    font-weight: bold;
+    left: 1700px;
+    border: none;
+    padding-top: 20px;
+   
+  }
+  

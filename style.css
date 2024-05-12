@@ -7,8 +7,8 @@ body{
     padding: 0;
 }
 
-nav{
-    background-color: black;
+.hero nav{
+    background-color: rgba(238, 85, 41, 1);
     height: 400px;
     display: flex;
     align-items: center;
@@ -25,35 +25,28 @@ nav{
     padding-bottom: 50px;
 }
 
-nav ul li{
+.hero nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px;
 }
 
-nav ul li a{
-    color: rgba(238, 85, 41, 1);
+.hero nav ul li a{
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 60px;
 }
 
-nav ul li a{
+.hero nav ul li a{
     padding-right: 300px;
     
 }
 
-nav a:hover{
-    color: white;
+.hero nav a:hover{
+    color: black;
   }
 
-
-
-  /* --------index------ */
-
-
-
-  
 body{
   width: 100%;
 }
@@ -163,7 +156,7 @@ nav a:hover{
     font-size: 120px;
     color: white;
     padding-left: 700px;
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
   }
 
@@ -171,14 +164,11 @@ nav a:hover{
     font-size: 70px;
     text-align: center;
     position: relative;
-    top: 650px;
+    top: 350px;
     right: 600px;
     color: white;
   }
 
-  .page3 h3,p{
-    padding-bottom: 800px;
-  }
 
   .page3 button{
     font-size: 50px;
@@ -237,7 +227,7 @@ nav a:hover{
     height: 1500px;
     position: relative;
     right: -2800px;
-    top: -1900px;
+    top: -1200px;
   }
 
   #page4-but{
@@ -245,7 +235,7 @@ nav a:hover{
     height: 150px;
     width: 600px;
     position: relative;
-    bottom: 2100px;
+    bottom: 1300px;
     right: 1480px;
     background-color: rgba(238, 85, 41, 1);
     color: white;
@@ -287,7 +277,7 @@ nav a:hover{
     height: 1500px;
     position: relative;
     right: -2500px;
-    top: -1900px;
+    top: -1100px;
   }
 
   #page5-but{
@@ -295,7 +285,7 @@ nav a:hover{
     height: 150px;
     width: 600px;
     position: relative;
-    bottom: 2100px;
+    bottom: 1250px;
     right: 2070px;
     background-color: rgba(238, 85, 41, 1);
     color: white;
@@ -317,7 +307,7 @@ nav a:hover{
   .page6{
     background-color: rgb(237, 237, 237);
     margin-top: 200px;
-    height: 1800px;
+    height: 1700px;
     margin-top: 500px;
 
   }
@@ -339,8 +329,8 @@ nav a:hover{
   .page6 img{
     height: 1400px;
     position: relative;
-    right: -2500px;
-    top: -1900px;
+    right: -3000px;
+    top: -1200px;
   }
 
   #page6-but{
@@ -348,7 +338,7 @@ nav a:hover{
     height: 150px;
     width: 600px;
     position: relative;
-    bottom: 2000px;
+    bottom: 1200px;
     right: 1210px;
     background-color: rgba(238, 85, 41, 1);
     color: white;
@@ -367,7 +357,7 @@ nav a:hover{
 
   .page7{
     height: 1800px;
-    margin-top: 50px;
+    margin-top: 160px;
 
   }
 
@@ -386,10 +376,10 @@ nav a:hover{
   }
 
   .page7 img{
-    height: 1800px;
+    height: 2200px;
     position: relative;
     right: -2500px;
-    top: -1700px;
+    top: -1100px;
   }
 
   .page7-icon ul{
@@ -459,6 +449,55 @@ nav a:hover{
   }
 
 
+  /* ------page8------- */
+  .stay2{
+    background-color: rgba(238, 85, 41, 1);
+      height: 1000px;
+      color: white;
+      margin-top: 1800px;
+  }
+  
+  .stay2 h1{
+    padding-left: 400px;
+      padding-top: 300px;
+      font-style: italic;
+      margin-top: 500px;
+      font-size: 120px;
+  }
+  
+  .stay2 h3{
+    font-size: 50px;
+    padding-left: 400px;
+  }
+  
+  #form{
+    height: 120px;
+    width: 800px;
+    font-size: 40px;
+    position: relative;
+    left: 3000px;
+    bottom: 250px;
+    padding-left: 40px;
+    border: none;
+    margin: 20px;
+    outline: none;
+  }
+  
+  #sub-but{
+    height: 120px;
+    width: 800px;
+    font-size: 60px;
+    position: relative;
+    color: rgba(238, 85, 41, 1);
+    font-weight: bold;
+    left: 1700px;
+    border: none;
+    padding-top: 20px;
+   
+  }
+  
+
+
 
 
 /* -----about us----- */
@@ -475,7 +514,7 @@ nav a:hover{
 
 .about h3{
   color: rgba(238, 85, 41, 1);
-  font-size: 120px;
+  font-size: 190px;
   margin-left: 580px;
   padding-top: 300px;
 }
@@ -502,28 +541,29 @@ nav a:hover{
 /* ----service----- */
   
 .services1 h1{
-  font-size: 150px;
+  font-size: 170px;
   text-align: center;
   margin-top: 300px;
   color: rgba(238, 85, 41, 1);
 }
+/* --------service2------- */
 
 .services2{
   background-color: rgba(238, 85, 41, 1);
-  height: 1500px;
+  height: 1700px;
   margin-top: 300px;
 }
 
 .services2 h3{
   color: rgb(255, 255, 255);
-  font-size: 120px;
+  font-size: 220px;
   margin-left: 580px;
   padding-top: 300px;
 }
 
 .services2 p{
   color: white;
-  font-size: 70px;
+  font-size: 100px;
   margin-left: 580px;
   padding-top: 70px;
 
@@ -534,7 +574,7 @@ nav a:hover{
   width: 2523px;
   position: relative;
   left: 2300px;
-  bottom: 1000px;
+  bottom: 1100px;
 }
 
 .services2 button{
@@ -545,37 +585,46 @@ nav a:hover{
   color: rgba(238, 85, 41, 1);
   border: none;
   position: absolute;
-  bottom: -130px;
+  bottom: -290px;
   left: 580px;
 }
 
+.services2 button:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius:70px;
+  transition: 0.5s;
+}
+
+/* -------services3-------- */
+
 .services3{
   background-color: rgba(238, 85, 41, 1);
-  height: 2300px;
-  margin-top: 300px;
+  height: 2700px;
+  margin-top: 500px;
 }
 
 .services3 h3{
   color: rgb(255, 255, 255);
-  font-size: 120px;
+  font-size: 220px;
   margin-left: 580px;
   padding-top: 300px;
 }
 
 .services3 p{
   color: white;
-  font-size: 70px;
+  font-size: 90px;
   margin-left: 580px;
   padding-top: 70px;
 
 }
 
 .services3 img{
-  height: 1969px;
+  height: 1700px;
   width: 2823px;
   position: relative;
   left: 2000px;
-  bottom: 1900px;
+  bottom: 1800px;
 }
 
 .services3 button{
@@ -583,7 +632,7 @@ nav a:hover{
   height: 150px;
   width: 1300px;
   position: relative;
-  bottom: 1800px;
+  bottom: 1500px;
   right: 2440px;
   border: none;
   color:  rgba(238, 85, 41, 1);;
@@ -597,22 +646,23 @@ nav a:hover{
   transition: 0.5s;
 }
 
+/* ------services4------- */
 .services4{
   background-color: rgba(238, 85, 41, 1);
-  height: 2000px;
+  height: 2200px;
   margin-top: 300px;
 }
 
 .services4 h3{
   color: rgb(255, 255, 255);
-  font-size: 120px;
+  font-size: 220px;
   margin-left: 580px;
   padding-top: 300px;
 }
 
 .services4 p{
   color: white;
-  font-size: 70px;
+  font-size: 90px;
   margin-left: 580px;
   padding-top: 70px;
 
@@ -623,8 +673,24 @@ nav a:hover{
   width: 2823px;
   position: relative;
   left: 2000px;
-  bottom: 1600px;
+  bottom: 1700px;
 }
+
+/* ----goods------ */
+
+.goods{
+  display: flex;
+  
+}
+
+.goods-item{
+  width: 1000px;
+  padding: 10px;
+  margin-top: 400px;
+  padding-left: 120px;
+  
+}
+
 
 
 .services4 button{
@@ -650,7 +716,8 @@ nav a:hover{
   background-color: rgba(238, 85, 41, 1);
     height: 1000px;
     color: white;
-    margin-top: -100px;
+    margin-top: 50px;
+    
 }
 
 .stay1 h1{
@@ -690,7 +757,16 @@ nav a:hover{
   border: none;
   padding-top: 20px;
  
-}--------
+}
+
+
+
+
+
+
+
+
+
 
 
 
