@@ -16,6 +16,7 @@ body{
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 .hero img{
@@ -44,7 +45,7 @@ body{
 }
 
 .hero nav a:hover{
-    color: black;
+  color: rgba(238, 85, 41, 1);
   }
 
 
@@ -402,55 +403,6 @@ body{
   }
 
 
-  /* ------page8------- */
-  .stay2{
-    background-color: rgba(238, 85, 41, 1);
-      height: 1000px;
-      color: white;
-      margin-top: 1800px;
-  }
-  
-  .stay2 h1{
-    padding-left: 400px;
-      padding-top: 300px;
-      font-style: italic;
-      margin-top: 500px;
-      font-size: 120px;
-  }
-  
-  .stay2 h3{
-    font-size: 50px;
-    padding-left: 400px;
-  }
-  
-  #form{
-    height: 120px;
-    width: 800px;
-    font-size: 40px;
-    position: relative;
-    left: 3000px;
-    bottom: 250px;
-    padding-left: 40px;
-    border: none;
-    margin: 20px;
-    outline: none;
-  }
-  
-  #sub-but{
-    height: 120px;
-    width: 800px;
-    font-size: 60px;
-    position: relative;
-    color: rgba(238, 85, 41, 1);
-    font-weight: bold;
-    left: 1700px;
-    border: none;
-    padding-top: 20px;
-   
-  }
-  
-
-
 
 
 /* -----about us----- */
@@ -712,6 +664,54 @@ body{
  
 }
 
+
+ /* ------page8------- */
+  .stay2{
+    background-color: rgb(0, 0, 0);
+      height: 1000px;
+      color: white;
+      margin-top: 1800px;
+  }
+  
+  .stay2 h1{
+    padding-left: 400px;
+      padding-top: 300px;
+      font-style: italic;
+      margin-top: 500px;
+      font-size: 120px;
+  }
+  
+  .stay2 h3{
+    font-size: 50px;
+    padding-left: 400px;
+  }
+  
+  #form{
+    height: 120px;
+    width: 800px;
+    font-size: 40px;
+    position: relative;
+    left: 3000px;
+    bottom: 250px;
+    padding-left: 40px;
+    border: none;
+    margin: 20px;
+    outline: none;
+  }
+  
+  #sub-but{
+    height: 120px;
+    width: 800px;
+    font-size: 60px;
+    position: relative;
+    color: rgba(238, 85, 41, 1);
+    font-weight: bold;
+    left: 1700px;
+    border: none;
+    padding-top: 20px;
+   
+  }
+  
 
 
 
