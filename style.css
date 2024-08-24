@@ -16,7 +16,10 @@ body{
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    
+    /* position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1; */
 }
 
 .hero img{
@@ -45,7 +48,7 @@ body{
 }
 
 .hero nav a:hover{
-  color: rgba(238, 85, 41, 1);
+  color: rgb(80, 41, 238);
   }
 
 

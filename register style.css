@@ -32,7 +32,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgba(238, 85, 41, 1);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 60px;
@@ -44,49 +44,10 @@ nav ul li a{
 }
 
 nav a:hover{
-    color: white;
+  color: rgba(238, 85, 41, 1);
   }
 
 
-nav{
-    background-color: black;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.hero img{
-    height: 800px;
-    width: 1000px;
-    padding-left: 200px;
-    padding-bottom: 50px;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-}
-
-nav ul li a{
-    color: rgba(238, 85, 41, 1);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 60px;
-}
-
-nav ul li a{
-    padding-right: 300px;
-    
-}
-
-nav a:hover{
-    color: white;
-  }
 
 
   .register-text h1{
@@ -436,7 +397,7 @@ table td{
 
 
 .stay2{
-  background-color: rgba(238, 85, 41, 1);
+  background-color: rgb(0, 0, 0);
     height: 1000px;
     color: white;
     margin-top: 200px;
